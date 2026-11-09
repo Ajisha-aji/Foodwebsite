@@ -1,0 +1,253 @@
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(./photo_637285-12525.avif);
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    min-height: 1000px;
+    width: 100%;
+    padding-top: 20px;
+    background-repeat: no-repeat;
+
+}
+
+.ex{
+    position: sticky;
+    top: 20px;
+   
+    
+}
+.ht{
+    transition: transform 1s;
+}
+.ht:hover{
+transform: scale(1.1)
+}
+.h{
+    height: 75px;
+}
+.exx{
+    transition: translate, ;
+}
+nav {
+    
+    background-image: url(./photo2-1517248135467-4c7edcad34c4.avif);
+    color: wheat;
+    }
+    .logo {
+    height: 200px;
+    width: 400px;
+
+}
+.dropdown-toggle {
+    color: white !important;
+     }
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+    margin-top: 0;
+}
+.best{
+    transition-timing-function: linear;
+    transition-delay: 0.7s;
+    
+}
+
+.box{
+    height: 50px;
+    width: 130px;
+    color: aliceblue;
+    background: rgb(201, 105, 70);
+    padding:15px;
+   margin-top: 40px;
+   
+}
+.box:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.box2{
+        height: 30px;
+    width: 80px;
+    color: aliceblue;
+    background: rgb(201, 105, 70);
+    padding:5px;
+
+    }
+    .image-col{
+    height: 200px;
+}
+    
+.box3 .row{
+    height: 100%;
+    width: 100;
+     background-image: url(./7b.jpg )}
+     
+.img-fluid{
+      max-width:100%;
+    height:auto;
+}
+.sec{
+    background-image: url(./7b.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    min-height: 700px;
+    width: 100%;
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    
+}
+ .seccc{
+    background-image: url(./awhite.jpg);
+    background-size: cover;
+    
+    background-position: center;
+    min-height: 800px;
+    width: 100%;
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    
+  
+}
+.seec{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),  url(./bb5.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    min-height: 460px;
+    width: 100%;
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    
+  
+  
+}
+.secc{
+    background-image: url(./5dce.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    min-height: 700px;
+    width: 100%;
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+  
+}
+.bl{
+    background-color: black;
+    min-height: 350px;
+    margin-top: 50px;
+
+}
+.bac{
+    background-image: url(./hotal.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+     background-repeat: no-repeat;
+}
+.lit{
+    height: 260px;
+    width: 50%;
+    background-color: rgb(226, 227, 228);
+    margin-top: 400px;
+}
+
+@media (min-width:676.98px) and (max-width:790px){
+    .seccc{
+    background-image: url(./7b.jpg);
+    background-size: cover;
+    
+    background-position: center;
+    height: 3000px;
+    width: 100%;
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+  
+}
+}
+
+@media (max-width:676.98px) {
+
+header{
+       background-size: cover;
+        background-position: center;
+    }
+     .dropdown-toggle {
+    color: rgb(3, 3, 3) !important;
+
+    }
+    
+
+    .secc{
+    background-image: url(./ble.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+     min-height: 1250px;
+    width: 100%;
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+  
+}
+
+   
+
+    .s{
+ position: relative;
+ font-size: 60px;
+  animation:foodFlip 4s infinite;
+}
+.sp{
+  position: absolute;
+  left: 190px;
+   font-size: 60px;
+    animation:menuFlip 4s infinite;
+}
+.best{
+    font-size: 60px;
+}
+.box{
+    height: 50px;
+    width: 130px;
+    color: aliceblue;
+    background: rgb(201, 105, 70);
+    padding:16px;
+    /* margin-left: 115px; */
+    margin-top: 40px;
+    padding-left: 20px;
+   
+}
+.lit{
+    height: 470px;
+    width: 100%;
+    background-color: rgb(218, 220, 221);
+    
+    
+}
+.seccc{
+    background-image: url(./7b.jpg);
+    background-size: cover;
+    
+    background-position: center;
+    height: 1700px;
+    width: 100%;
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+  
+}
+
+}
+    
+
+
+
+
+
